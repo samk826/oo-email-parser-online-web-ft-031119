@@ -1,7 +1,7 @@
 class EmailParser
 
 
-  def initialize :emails
+  def initialize :name, :emails
     @emails = emails
     end
 
