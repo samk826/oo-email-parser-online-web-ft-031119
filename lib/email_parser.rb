@@ -4,7 +4,7 @@ class EmailParser
   def initialize :emails
     @emails = emails
     end
-end
+
 
 def parse
     emails.split.collect do |address|
@@ -12,7 +12,7 @@ def parse
     end
     .flatten.uniq
   end
-end 
+end
 
 
 
