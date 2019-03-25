@@ -1,4 +1,4 @@
-class EmailParser 
+class EmailParser
   def initialize :emails
     @emails = emails
     end
